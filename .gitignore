@@ -1,5 +1,44 @@
-# dependencies
+# Dependencies
 node_modules/
+frontend/node_modules/
 
-# environment files
+# Environment files
 .env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+frontend/dist/
+*.local
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Large ML Training Checkpoints & Datasets (>100MB)
+ml/bert_finetuned_output/
+ml/resume-dataset/
+ml/resume-datasetunzip/
+ml/resume-dataset.zip
+
+# Editor directories and system files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db

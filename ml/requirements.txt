@@ -1,0 +1,32 @@
+pymupdf
+torch
+transformers
+numpy
+pandas
+scikit-learn
+jolib
+pdfplumber
+flask
+python-multipart
+Flask-RESTful
+kaggle
+seaborn
+utils
+tqdm
+sentence-transformers
+datasets
+torch
+sentencepiece
+
+
+# structured_data = {
+#     "personal_info": {
+#         "name": extracted_name,
+#         "email": extracted_email,
+#         "phone": extracted_phone,
+#         "location": extracted_location
+#     },
+#     "education": education_list,
+#     "experience": experience_list,
+#     "skills": skills_list
+# }
