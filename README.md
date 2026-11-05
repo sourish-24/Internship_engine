@@ -1,10 +1,10 @@
-# Internship Engine ⚡
+# Internship Engine 
 
 A real-time resume classification and semantic matchmaking engine. It uses a **fine-tuned DistilBERT** model to categorize resumes into 24 industry sectors, paired with a **Pinecone vector database** powered by **Gemini embeddings** to match candidates with relevant internship roles.
 
 ---
 
-## 🧪 Model Training & Evolution Timeline
+##  Model Training & Evolution Timeline
 
 To classify raw resumes into 24 distinct domains, I tested three approaches in [`ml/main.ipynb`](ml/main.ipynb)—moving from a classical bag-of-words baseline to dense sentence embeddings, and finally fine-tuning a transformer model.
 
@@ -54,7 +54,7 @@ The diagonal tightens considerably across all 24 classes, demonstrating that the
 
 ---
 
-## 🎯 How the Match-Making System Works
+##  How the Match-Making System Works
 
 Classification only tells you what field a candidate is in; it doesn't tell you which specific internship they fit. That's where the vector retrieval pipeline comes in.
 
@@ -89,7 +89,7 @@ Instead of sparse keyword search, the system runs the query and profiles through
 
 ---
 
-## 🚀 Running the Project
+##  Running the Project
 
 ### 1. Setup Environment
 Create a `.env` file in the root (see `.env.example`):
